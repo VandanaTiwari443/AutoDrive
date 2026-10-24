@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AutoDrive — Car Showroom Platform
 
-## Getting Started
+AutoDrive is a full-stack car showroom web application built with Next.js, React, Node.js, Express, and MongoDB. It allows users to explore cars, compare vehicle details, estimate ownership costs, and request test drives. It also includes an AI-powered assistant for car-related questions.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Car Listings:** Browse available cars and view detailed specifications.
+- **Search and Filters:** Find cars based on relevant criteria.
+- **Car Details:** View information such as price, mileage, fuel type, transmission, and seating capacity.
+- **User Authentication:** Sign up and log in securely.
+- **Test-Drive Requests:** Submit test-drive enquiries.
+- **Ownership Cost Calculator:** Estimate vehicle running costs using mileage and distance.
+- **AI Car Assistant:** Ask car-related questions and compare vehicles.
+- **Responsive Design:** Interface designed for desktop, tablet, and mobile screens.
+- **Admin Features:** Manage bookings and showroom information, if enabled in the deployed version.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Frontend**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Redux Toolkit, if used in the current implementation
 
-## Learn More
+**Backend**
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js
+- Express.js
+- MongoDB
+- Gemini API for AI responses
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Advanced car recommendations
+- Enhanced inventory management
+- Booking notifications
+- Additional car comparison features
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Vandana Tiwari**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: [VandanaTiwari443](https://github.com/VandanaTiwari443)
